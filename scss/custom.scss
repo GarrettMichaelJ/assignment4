@@ -1,0 +1,94 @@
+nav {
+    width: 100%;
+}
+
+body {
+    background: url('/images/background2.jpg') center;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: black;
+    background: white;
+}
+
+h5 {
+    color: white;
+    background: black;
+}
+
+.panel{
+    height: 152px;
+}
+
+#menuhr  {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+@media only screen and (min-width: 40.063em) { 
+     background-color: black;
+
+  .logo-wrapper {
+    position: relative;
+      background-color: black;
+  }
+    
+  .logo-wrapper .logo {
+    width: 92px;
+    height:  92px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: -2px;
+    margin-left: -46px;
+  }
+
+  // Right part
+  .top-bar-section ul.right {
+    width: 50%;
+    padding-left: 60px;
+      background-color: black;
+  }
+  
+  .top-bar-section ul.right li {
+    float:  left;
+      background-color: black;
+  }
+
+  // Left part
+  .top-bar-section ul.left {
+    width:  50%;
+    padding-right: 60px;
+      background-color: black;
+  }
+
+  .top-bar-section ul.left li {
+    float:  right;
+      background-color: black;
+  }
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: black;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+}
+
+.contain-to-grid {
+    width: 100%;
+    background: black;
+}
+
+.top-bar {
+  background: black;
+}
+
+.panel {
+    
+}
+
